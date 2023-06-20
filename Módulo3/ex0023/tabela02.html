@@ -10,6 +10,7 @@
 
         table{
             width: 500px;
+            border-collapse: collapse;
         }
 
         td, th{
@@ -18,9 +19,24 @@
         }
 
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(59, 58, 58);
             color: white;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n){/*Efeito Zebrado:  3n, 4n, 5n..... 2n-1 ou odd ou even*/
+            background-color: lightgray;
+        }
+
+        .num{
+            text-align: right;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
     </style>
     <title>Tabelas</title>
@@ -28,12 +44,20 @@
 <body>
     <h1>Uso de Tabelas Grandes</h1>
      <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 90px;">População</th>
             </tr>
         </thead>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>130 986 363</strong></td>
+            </tr>
+        </tfoot>
 
         <tbody>
             <tr>
@@ -50,14 +74,28 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 659 023</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 835 379</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 088 065</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 051 113</td>
+            </tr>
         </tbody>
 
-        <tfoot>
-            <tr>
-                <th>Total de Habitantes</th>
-                <td><strong>84 352 783</strong></td>
-            </tr>
-        </tfoot>
+
      </table>
 </body>
 </html>
