@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+                body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            background-color: darkred;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border: 1px solid black;
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        tbody > tr:nth-child(even){/*Efeito Zebrado:  3n, 4n, 5n..... 2n-1 ou odd ou even*/
+            background-color: lightgray;
+        }
+
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+    <title>Tabelas Responsivas</title>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis consectetur enim illum hic dolores incidunt deserunt, dolor, sapiente nemo cum magni corrupti dolorem officiis accusamus iusto! Adipisci ea quod qui.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptatibus aliquam optio perspiciatis beatae rerum. Aperiam, totam! Minus, quos iste corporis error laboriosam fugiat, in omnis veniam sequi maiores earum?         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt harum suscipit accusamus sint quia! Itaque ad perferendis accusamus soluta tempore laboriosam delectus rem. Porro earum repellendus commodi sint, nobis quaerat!         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores blanditiis laudantium laboriosam consectetur, eius tenetur, aut perferendis pariatur sint nihil. Iste possimus cum non quaerat asperiores velit, assumenda quisquam?         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis consectetur enim illum hic dolores incidunt deserunt, dolor, sapiente nemo cum magni corrupti dolorem officiis accusamus iusto! Adipisci ea quod qui.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptatibus aliquam optio perspiciatis beatae rerum. Aperiam, totam! Minus, quos iste corporis error laboriosam fugiat, in omnis veniam sequi maiores earum?         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt harum suscipit accusamus sint quia! Itaque ad perferendis accusamus soluta tempore laboriosam delectus rem. Porro earum repellendus commodi sint, nobis quaerat!         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores blanditiis laudantium laboriosam consectetur, eius tenetur, aut perferendis pariatur sint nihil. Iste possimus cum non quaerat asperiores velit, assumenda quisquam?
+        <br>
+
+        <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt harum suscipit accusamus sint quia! Itaque ad perferendis accusamus soluta tempore laboriosam delectus rem. Porro earum repellendus commodi sint, nobis quaerat!         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores blanditiis laudantium laboriosam consectetur, eius tenetur, aut perferendis pariatur sint nihil. Iste possimus cum non quaerat asperiores velit, assumenda quisquam?         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt harum suscipit accusamus sint quia! Itaque ad perferendis accusamus soluta tempore laboriosam delectus rem. Porro earum repellendus commodi sint, nobis quaerat!         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores blanditiis laudantium laboriosam consectetur, eius tenetur, aut perferendis pariatur sint nihil. Iste possimus cum non quaerat asperiores velit, assumenda quisquam?         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis consectetur enim illum hic dolores incidunt deserunt, dolor, sapiente nemo cum magni corrupti dolorem officiis accusamus iusto! Adipisci ea quod qui.         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam voluptatibus aliquam optio perspiciatis beatae rerum. Aperiam, totam! Minus, quos iste corporis error laboriosam fugiat, in omnis veniam sequi maiores earum?         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt harum suscipit accusamus sint quia! Itaque ad perferendis accusamus soluta tempore laboriosam delectus rem. Porro earum repellendus commodi sint, nobis quaerat!         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolores blanditiis laudantium laboriosam consectetur, eius tenetur, aut perferendis pariatur sint nihil. Iste possimus cum non quaerat asperiores velit, assumenda quisquam?
+        <br>
+
+
+        <div id="container">
+            <table>
+                <caption>Tabelas Responsivas</caption>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Janeiro</th>
+                        <th>Fevereiro</th>
+                        <th>Março</th>
+                        <th>Abril</th>
+                        <th>Maio</th>
+                        <th>Junho</th>
+                        <th>Julho</th>
+                        <th>Agosto</th>
+                        <th>Setembro</th>
+                        <th>Outubro</th>
+                        <th>Novembro</th>
+                        <th>Dezembro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TV 40"</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>TV 50"</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Controle de Tv</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Home Theater</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Playstation 4</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Celular</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Máquina de Lavar</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Lava Louças</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>TV 68"</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Tablet Samsung S6</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon Echo</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </p>
+</body>
+</html>
