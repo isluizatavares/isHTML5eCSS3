@@ -14,28 +14,38 @@
             border: 1px solid black;
             padding: 10px;
         }
+
+        #Assistidos{
+            text-align: center;
+        }
     </style>
     <title>Exemplo de tabela completa</title>
 </head>
 <body>
     <table>
         <thead>
-            <th>
+            <th scope="col">
                 Grupo
             </th>
 
-            <th>
+            <th scope="col">
                 Nomes
             </th>
 
-            <th colspan="3">
+            <th colspan="3" scope="colgroup">
                 Filmes
             </th>
         </thead>
 
+        <tfoot>
+            <th colspan="2" scope="row">Assistidos</th>
+            <td colspan="3" id="Assistidos">7</td>
+
+        </tfoot>
+
         <tbody>
             <tr>
-                <td rowspan="3">Mulheres</td>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -57,7 +67,7 @@
             </tr>
 
             <tr>
-                <td rowspan="3">Homens</td>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
