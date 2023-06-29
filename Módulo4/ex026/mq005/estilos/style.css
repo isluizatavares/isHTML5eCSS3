@@ -33,7 +33,7 @@ i#burguer:hover{
 }
 
 menu{
-    display: none; /*Primeiro configuirar como display block e após montar a parte do burguer mudar para display none*/
+    display: none; /*Primeiro configuirar como display block e após montar a parte do burguer mudar para  display none*/
 }
 
 menu > ul{
