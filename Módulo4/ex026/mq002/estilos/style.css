@@ -9,13 +9,14 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: darkred;
+    background-color: #233eff;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 h1{
     color: white;
-    text-shadow: 2px 2px 0px rgb(199, 4, 4);
+    text-align: center;
+    text-shadow: 2px 2px 0px #1526a7;
     padding: 10px;
 }
